@@ -11,6 +11,7 @@ case MetatronsCube
 case Monas
 case Runes
 }
+//
 func decor (buildingDecor: BuildingDecor) -> String {
     switch buildingDecor {
     case .MetatronsCube:
