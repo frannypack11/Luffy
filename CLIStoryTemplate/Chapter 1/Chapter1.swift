@@ -12,7 +12,7 @@ func chapterOne() {
     let character = "Zero"
     let lostland = "Alkebulan"
     let travelers = "adventurers"
-    let antagonist = "pirates"
+    let antagonist = "bandits"
     let island = "Mystic Land"
     let petHawk = "bolt"
     print ("\(character) was always an adventurous person")
@@ -49,8 +49,8 @@ func chapterOne() {
         return ("\(character) packs a small baga change of clothes a canteen bread and fruit")
         
     }
-    zeroPacksThings()
-    print ("his cousin a pirate notices him packing and starts to follow him")
+    print ("\(zeroPacksThings())")
+    print ("his cousin a bandit notices him packing and starts to follow him")
     print ("sees him board a boat and immediately goes to tell his crew their gonna trail him")
     print ("\(character) calls \(petHawk) his pet hawk")
     enum readyToSail {
@@ -146,10 +146,10 @@ func chapterOne() {
    let message = "\(gondolier) receives \(itemReceived) from \(character) and \(travelersName)."
     print (message)
     print ("they board the gondola")
-    print ("crossing open waters they hear drums and see a huge ship in the distance")
+    print ("crossing open waters they hear drums and see a ship in the distance")
     print ("\(antagonist) \(archer) says in the past we used to fight new ships weekly its been a decade since then i wonder what brought this about")
-    print ("\(character) notices the jolly roger and apologizes because he knows its his cousins ship, i mustve been followed he says")
-    print ("they reach the shore of alkebulan and they see the pirate ship on shore it becomes a race")
+    print ("\(character) notices the symbol and apologizes because he knows its his cousins ship, i mustve been followed he says")
+    print ("they reach the shore of alkebulan and they see the bandit ship on shore it becomes a race")
     print ("\(character) signals for \(petHawk) and takes to the sky with \(archer)")
     print ("they see the \(antagonist) in the ruins and swiftly get ahead")
     print ("the \(antagonist) notice \(petHawk) and try to shoot him down")
@@ -162,7 +162,7 @@ func chapterOne() {
     print("i'll try to hold them off she says")
     print("\(mage) makes a barrier around the door to make up for time")
     print ("\"the barrier wont hold long cause im so far away he says but itll but time\"")
-    print("\(archer) fending off pirates but its enough they break the barrier and enter the pyramid")
+    print("\(archer) fending off bandits but its enough they break the barrier and enter the pyramid")
     print("\(mage) and \(travelers) make it right behind them \(archer) enters right behind them")
     print("\(character) roaming after roaming finds a key")
     print("he tries this key with multiple doors and chest that he sees in multiple rooms, no luck")
@@ -172,18 +172,7 @@ func chapterOne() {
     print("then he overhears \"i hear alot of racket coming from this way follow me\"")
     print ("\(character) without much time to think takes the chest and runs into the next chamber")
     
-    //var mainCharacter: String? = "John"  // Assume the main character's name is John
 
-    // Simulate a condition to determine whether to open the chest or leave with it
-//    let shouldOpenChest = true // Change this to true if the character should open the chest
-//
-//    if shouldOpenChest {
-//        print("\(character) opens the chest.")
-//        // You can perform actions related to opening the chest here
-//    } else {
-//        print("\(character) decides to leave with the chest.")
-//        // You can perform actions related to leaving with the chest here
-//    }
     var keyName: String?
     let lockName: String = "lost treasure"
     //keyName = "open the treasure"
